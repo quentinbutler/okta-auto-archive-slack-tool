@@ -38,7 +38,7 @@ Build an auto-archive tool with reporting that utilize Okta Workflows with custo
 
   A. Search Slack by [Channel Name] to get Slack ID
 
-6. Use GET conversations.history to fetch a conversation’s history of messages and events
+6. Use conversations.history to fetch a conversation’s history of messages and events
 
   A. Include message with the latest timestamp
 
@@ -55,3 +55,9 @@ Build an auto-archive tool with reporting that utilize Okta Workflows with custo
 ## TLDR
 
 Every month a flow will run where if a channel has inactivity for more than 120 days then it will be archived. 
+
+##Resources
+
+https://api.slack.com/methods/conversations.list
+
+https://api.slack.com/methods/conversations.history
