@@ -56,7 +56,7 @@ Build an auto-archive tool with reporting that utilize Okta Workflows with custo
 
 Every month a flow will run where if a channel has inactivity for more than 120 days then it will be archived. 
 
-##Resources
+## Resources
 
 https://api.slack.com/methods/conversations.list
 
