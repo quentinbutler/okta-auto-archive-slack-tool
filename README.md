@@ -1,4 +1,4 @@
-# okta-auto-archive-slack-tool
+# Auto-Archive Slack Tool 
 
 ## Before you get started / prerequisites
 Before you get started, you will need:
