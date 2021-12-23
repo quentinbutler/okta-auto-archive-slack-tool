@@ -5,7 +5,7 @@ Before you get started, you will need:
 
 Access to an Okta tenant with Okta Workflows enabled for your org
 
-Slack Business+
+Slack
 
 
 ## Problem
