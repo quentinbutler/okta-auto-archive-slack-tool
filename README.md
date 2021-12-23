@@ -10,13 +10,11 @@ Slack Business+
 
 ## Problem
 
-Having old, inactive slack channels piles up and clogs a Slack instances channel list. There isn't a native feature (as of this writing) that offer an auto-archive solution which helps keep things tidied up. 
+Having old, inactive slack channels can pile up and clog a Slack workspace. There isn't a native feature (as of this writing) that offers an auto-archive solution that helps keep things tidied up.
 
 ## Solution
 
-Build an auto-archive tool with reporting that utilize Okta Workflows with custom API actions:
-
-
+An tool that auto-archives slack channels based on inactivity. 
 
 1. Use conversations.list to list all channels in a Slack team
 
@@ -54,7 +52,9 @@ Build an auto-archive tool with reporting that utilize Okta Workflows with custo
 
 ## TLDR
 
-Every month a flow will run where if a channel has inactivity for more than 120 days then it will be archived. 
+Every month a flow will run where if a channel has inactivity for more than x days then it will be archived. 
+
+#### I highly suggest testing in a sandbox environment before moving to production.
 
 
 ![Slack Auto-Archive  (1)](https://user-images.githubusercontent.com/87619174/147167717-bc3d3522-3977-4484-9094-3e2fdf672d30.png)
